@@ -94,8 +94,8 @@ for k = 1:numfile
     end
 end
 
-% Aplicar a transformação 2 - log(X)
-X = 2 - log(X);
+% Aplicar a transformação log(1/X)
+X = log(1/X);
 
 % Extrair rótulos dos nomes dos arquivos
 nomes_arquivos = {asc.name}';
