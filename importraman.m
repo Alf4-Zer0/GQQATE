@@ -46,7 +46,7 @@ for k = 1:length(asc)
     end
 
     % Ignora as primeiras 30 linhas
-    for i = 1:30
+    for i = 1:31
         if feof(fid)
             warning('Arquivo %s possui menos de 30 linhas e foi ignorado.', nome_arquivo);
             fclose(fid);
